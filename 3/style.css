@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+      background: rosybrown;
+  }
+.submenu { 
+display: none; 
+}
+
+.menu-item:hover > .submenu {
+     display: block; 
+}
+
+.menu {
+    list-style: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.submenu {
+    /* делаем невидимым .submenu */
+    display: none;
+    /* при появлении .submenu окажется поверх других элементов */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;  
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-item > a,
+.submenu-item > a {
+  display: inline-block;
+  padding: 15px 30px; 
+  color: #424242;
+  background-color: rgb(126, 210, 212);
+  text-decoration: none;
+}
+
+.menu-item > a:hover,
+.submenu-item > a:hover{
+  background: rgb(156, 9, 224);
+  color: #fff8f8;
+}
