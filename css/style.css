@@ -1,13 +1,10 @@
 body {
    margin: 0 auto;
-   background: url(../img/img.gif);
 }
 
 .container  {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.3)), url(../img/img.gif);
     margin: 0 auto;
-    position: absolute;
-    z-index: 1;
   }
