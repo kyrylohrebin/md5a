@@ -1,0 +1,92 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background: #424242;
+    position: relative;
+}
+
+.i1 {
+width: 100px;
+height: 100px;
+background: rgb(61, 37, 168);
+position: absolute;
+top: 0;
+left: 0em;
+}
+
+.i2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(161, 28, 121);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+.i3 {
+    width: 100px;
+    height: 100px;
+    background: rgb(15, 221, 194);
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+
+.i4 {
+     width: 100px;
+    height: 100px;
+    background: rgb(49, 221, 15);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    }
+
+.i5 {
+width: 100px;
+height: 100px;
+background: rgb(221, 200, 15);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.i6 {
+width: 100px;
+height: 100px;
+background: rgb(250, 0, 117);
+position: absolute;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+}
+
+.i7 {
+    width: 100px;
+    height: 100px;
+    background: rgb(4, 0, 250);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+.i8 {
+    width: 100px;
+    height: 100px;
+    background: rgb(209, 198, 203);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+    .i9 {
+        width: 100px;
+        height: 100px;
+        background: rgb(253, 0, 0);
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        }
