@@ -1,6 +1,13 @@
-.wrapper {
-    width: 100vh;
-    height: 100vh;
-    background-image: url(/img/img.gif);
-    /*background-image: linear-gradient(to bottom right, #00ffaa, #06fce7)*/
+body {
+   margin: 0 auto;
+   background: url(../img/img.gif);
 }
+
+.container  {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.3));
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+  }
