@@ -1,0 +1,6 @@
+.wrapper {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(/img/img.gif);
+    /*background-image: linear-gradient(to bottom right, #00ffaa, #06fce7)*/
+}
